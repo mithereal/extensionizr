@@ -21,6 +21,8 @@ Settings are defined in the manifest.js file as JavaScript objects. Each setting
 
 "name" is used as a part of the key when storing the setting's value in localStorage. 
 If it's missing, nothing will be saved.
+you can also optionally set "save" to false to not save settings in localstorage but still apply custom actions.
+"value" can be set to populate the value of the field.
 
 ###Additionally, all types of settings are configured with their own custom parameters:
 
